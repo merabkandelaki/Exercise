@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+.wrapper {  
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.wrapper-inner {
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 10px 10px 8px black;
+    justify-content: space-between;
+
+}
+
+.card_two {
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 10px 10px 8px black; 
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.image {
+    margin-bottom: 25px;
+}
+
+.image_two {
+    margin-bottom: 25px;
+}
+
+.image_two img {
+    width: 350px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.image img {
+    width: 300px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.days_ago h4 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: deeppink;
+}
+
+.title {
+    margin-bottom: 25px;
+}
+
+.title h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.content {
+    margin-bottom: 25px;
+}
+
+.content p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: rgb(104, 102, 102);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(255, 0, 119);
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.footer_two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color:orangered;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.days_ago_two h4 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: orangered;
+}
+
+.days_ago_three h4 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: rgb(8, 156, 8);
+}
+
+.footer_three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(8, 156, 8);
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.inner_title h3, .inner_content p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
